@@ -5,8 +5,7 @@
 export const environment = {
   production: false,
   // backendURL: 'http://localhost:3001/api',
-  backendURL:
-    'http://ec2-13-113-231-243.ap-northeast-1.compute.amazonaws.com/api',
+  backendURL: '/api',
 };
 
 /*
