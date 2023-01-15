@@ -27,7 +27,7 @@ export class ReposComponent implements OnInit, OnDestroy {
   };
 
   paginatedRepos: Repo[] = [...this.repos];
-  reposPerPage = 4;
+  reposPerPage = 10;
   noOfPages = Math.ceil(this.repos.length / this.reposPerPage);
   currentPage = 1;
   pages = Array.from(new Array(this.noOfPages));
